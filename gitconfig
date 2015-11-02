@@ -49,3 +49,7 @@
 [user]
 	email = yara.dagher@live.com
 	name = YARA DAGHER
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
